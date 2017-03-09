@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/user_image_view"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/user_name_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fafafa"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text=""
+        android:textColor="#888888" />
+
+    <TextView
+        android:id="@+id/url_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#20B2AA"
+        android:textSize="17dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="" />
+
+   <!-- <Button
+        android:id="@+id/profile_url_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fafafa"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="Profile: https://github.com/enenim2000"
+        android:textColor="#888888" />
+-->
+
+    <Button
+        android:id="@+id/share_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="#b2b419"
+        android:drawableRight="@android:drawable/ic_menu_share"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="Share Profile "
+        android:textColor="#e8e9e9" />
+</LinearLayout>
