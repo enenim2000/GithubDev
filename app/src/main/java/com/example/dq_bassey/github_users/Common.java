@@ -16,7 +16,7 @@ import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 
 public class Common {
     public  final static String USER_KEY = "user";
-    public final static String USER_API = "https://api.github.com/search/users?q=developers+language:java+location:lagos";
+    public final static String USER_API = "https://api.github.com/search/users?q=developer+language:java+location:lagos";
     //public final static String ROOT_URL = "https://github.com";
 
     public static void loadImageIntoView(User user, ImageView imageView, Context activity, int imageWidth, int imageHeight){
